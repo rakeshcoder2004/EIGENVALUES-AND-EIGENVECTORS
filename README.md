@@ -17,12 +17,13 @@ Using the np.linalg.eig(), we get two results (first is eigenvalue and second is
 #Program to find the eigen values and eigen vectors.
 #Developed by: Rakesh.V
 #RegisterNumber: 22008590
-
+```
 import numpy as np
 
 a = np.array([[-2, 2, -3], [2, 1, -6], [-1, -2, 0]])
 values, vectors = np.linalg.eig(a)
 print("Eigen values are {} and Eigen Vectors are {}".format(values, vectors))
+```
 ## Output:
 ![output](./Screenshot%20from%202023-01-30%2014-01-03.png)
 ## Result:
